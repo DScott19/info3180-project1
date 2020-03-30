@@ -1,0 +1,31 @@
+{%  extends 'base.html'%}
+{% block main %}
+
+<div class="outline">
+	<div class="top">
+		{% for user in users %}
+		<img src="{{ url_for('static',filename='uploads/'+user.filename)}}" alt="Profile Picture" class="profile_img">
+		<div class="user_info">
+			<h4>{{user.first_name}} {{user.last_name}} </h4>
+			<p> <img src="{{url_for('static',filename='images/email.png')}}">{{ user.email }}</p>
+			<p> <img src="{{url_for('static',filename='images/location.png')}}">{{ user.location}}</p>
+			<p><img src="{{url_for('static',filename='images/date.png')}}">Joined on {{user.created_on}} </p>
+		</div>	
+		
+
+	</div>
+
+	<div class=info >
+		<h6>About Me </h6>
+		<p>{{user.biography}} </p>
+	</div>
+	{% endfor %}
+	<div class ="buttons">
+		<button type="submit" id="messgae"> Send Message </button>
+		<button type="submit" id="follow"> Follow </button>
+	</div>
+
+</div>
+
+
+{% endblock %}
