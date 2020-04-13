@@ -3,12 +3,14 @@ body {
     background-color: #cde4f2;
 }
 
+
 .page-title{
 	font-weight: bold;
 	width:50%;
 	margin:0px auto; 
 	padding-bottom: 10px;
 }
+
 
 
 .btn{
@@ -19,6 +21,7 @@ body {
 	font-weight: bold;
 }
 
+
 .textbox{
 	border-radius:5px;
 	margin-bottom: 25px;
@@ -26,25 +29,29 @@ body {
 	padding: 5px;
 }
 
+
 .bold{
  	font-family: "Arial", Times, serif;
  	font-weight: bold;
  }
 
+
 .fom-group{
 	padding-left: 15px;
 }
+
+
 .outline{
 	display: flex;
 	flex-direction: column;
 	width:50%;
-	
 	background-color: white;
 	padding:15px 30px;
 	margin:0px auto;
 	border-radius: 5px; 
 	border-top: 5px solid #0080b3;
 }
+
 
 .profile_img{
 
@@ -54,12 +61,13 @@ body {
  	margin-right:15px;
 }
 
+
 .buttons{
 	display: flex;
 	flex-direction: row;
 	padding-top: 20px;
-
 }
+
 
 #messgae{
 	width:35%;
@@ -71,6 +79,7 @@ body {
 	padding: 5px;
 }
 
+
 #follow{
 	margin-left:15%;
 	width:35%;
@@ -81,43 +90,52 @@ body {
 	padding:5px;
 }
 
+
 p{
 	color: grey;
 }
 
+
 .info{
 	color:grey;
 }
+
 .info h6{
 	font-weight: bold;
 	padding: 10px 0px;
 }
 
+
 img{
 	width:16px;
 	height:18px;
 	margin-right: 15px;
-
 }
+
 
 .top{
 	display: flex;
 	flex-direction: row;
 }
 
+
 .user_info{
 	display: flex;
 	flex-direction: column;
 }
+
+
 .user_info h4{
 	font-weight: bold;
 }
+
 
 .grid{
 	display: grid;
  	grid-template-columns: 25% 35% 20%;
 	grid-gap:10px;
 }
+
 
 .profile-list{
 	width: 60%;
@@ -128,25 +146,25 @@ img{
 	border-radius: 5px; 
 	border-top: 5px solid #0080b3;
 	padding:10px;
-
 }
+
 
 .grid-item-btn{
 	align-self: center;
-
 }
 
+
 .grid-item-info{
-		padding-left: 30px;
-		align-self: center;
+	padding-left: 30px;
+	align-self: center;
 }
 
 
 #photo{
 	display: none;
-
- width:100px;
+	width:100px;
 }
+
 
 .upload-btn{
 	border-style:outset;
@@ -159,7 +177,7 @@ img{
 	padding: 5px;
 }
 
+
 #gender option[value=""]{
 	display: none;
-
 }
